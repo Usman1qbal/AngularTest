@@ -1,0 +1,15 @@
+<section class="section3">
+  <div class="bold-container">
+    <div class="cards-container">
+      <app-chance-card
+        *ngFor="let cardContent of cardsContent"
+        [cardContent]="cardContent"
+      ></app-chance-card>
+    </div>
+    <div class="details-container">
+      <p>فرص</p>
+      <p>ما هو “لوريم إيبسوم” ؟</p>
+      <button type="button" class="btn btn-primary">جميع الفرص</button>
+    </div>
+  </div>
+</section>

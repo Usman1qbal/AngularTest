@@ -1,0 +1,47 @@
+<section class="section7">
+  <form (ngSubmit)="onSubmit()" [formGroup]="profileForm">
+    <div class="form-container">
+      <h2>تواصل معنا</h2>
+      <div class="fields-container">
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          name="email"
+          aria-describedby="emailHelp"
+          placeholder="البريد الإلكتروني"
+          formControlName="email"
+        />
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputEmail1"
+          name="username"
+          aria-describedby="name"
+          placeholder="الإسم"
+          formControlName="name"
+        />
+      </div>
+      <div class="text-area-container">
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          placeholder="رسالتك"
+          rows="5"
+          formControlName="message"
+        ></textarea>
+      </div>
+      <div
+        style="
+          width: 100%;
+          display: flex;
+          width: 100%;
+          justify-content: flex-end;
+          margin-right: 120px;
+        "
+      >
+        <button type="submit" class="btn btn-primary">ارسال</button>
+      </div>
+    </div>
+  </form>
+</section>
