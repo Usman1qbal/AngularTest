@@ -1,5 +1,6 @@
 export interface CardModel {
   src?: string;
+  ban?: string;
   title?: string;
   subTitle?: string;
   content?: string;

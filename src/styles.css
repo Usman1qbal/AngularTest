@@ -30,7 +30,7 @@
   /* header */
   
   .maindiv .carousel-item {
-    height: 70vh;
+    height: 95vh;
     min-height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -49,10 +49,11 @@
   
   .maindiv .display-4 {
     font-weight: 600;
+    font-size: 48px;
   }
   
   .maindiv .lead {
-    font-size: 2.25rem;
+    font-size: 38px;
     font-weight: 400;
   }
   
@@ -141,7 +142,7 @@
   
   .section1 .card-text {
     height: 100px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   .section1 .card::before,
@@ -202,13 +203,24 @@
   .section2 .card-group .card-primary:hover .card-title {
     color: #009ee2;
   }
-  
+
+  /* .ach-card-style{
+    width: 12.5rem !important;
+    height: 36vh;
+    align-items: center;
+  } */
+
+
   .section2 .card-group .card-primary .card-img-top {
     width: 150px;
     height: 150px;
     margin: 25px auto 0px;
+    border-radius: 82px !important;
   }
-  
+   .arrow-img{
+    width: 22px;
+    height: 14px;
+   }
   .section2 .card-group .card-primary .card-body > .badge {
     margin-bottom: 24px;
   }

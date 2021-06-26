@@ -10,17 +10,20 @@ export class InitiativesComponent implements OnInit {
   cardsContent: CardModel[] = [
     {
       title: 'عشان أحب السعودية',
-      src: 'https://static3.avast.com/1/web/i/v2/components/arrow-m-right-orange.png',
+      ban: 'assets/img/person.png',
+      src: 'assets/img/arrow-image.png',
       subTitle: 'التقاصيل',
     },
     {
       title: 'عشان أحب السعودية',
-      src: 'https://static3.avast.com/1/web/i/v2/components/arrow-m-right-orange.png',
+      ban: 'assets/img/person1.png',
+      src: 'assets/img/arrow-image.png',
       subTitle: 'التقاصيل',
     },
     {
       title: 'عشان أحب السعودية',
-      src: 'https://static3.avast.com/1/web/i/v2/components/arrow-m-right-orange.png',
+      ban: 'assets/img/person2.png',
+      src: 'assets/img/arrow-image.png',
       subTitle: 'التقاصيل',
     },
   ];
